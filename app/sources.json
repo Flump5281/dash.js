@@ -1,6 +1,26 @@
 {
     "items": [
         {
+            "name": "USP Working Live Loop",
+            "url": "http://live.unified-streaming.com/loop/loop.isml/loop.mpd?format=mp4&session_id=25020",
+            "browsers": "cdsbi"
+        },
+        {
+            "name": "BBC Parliament - Fiddled Playlist",
+            "url": "http://test.bbc.co.uk/me.mpd",
+            "browsers": "cdsbi"
+        },
+        {
+            "name": "Stream what works",
+            "url": "http://tvnlive.dashdemo.edgesuite.net/live/manifest.mpd",
+            "browsers": "cdsbi"
+        },
+        {
+            "name": "BBC Parliament",
+            "url": "http://vs-hls-uk-live.edgesuite.net/pool_1/live/bbc_parliament/bbc_parliament.isml/bbc_parliament.mpd",
+            "browsers": "cdsbi"
+        },
+        {
             "name": "Caption Test",
             "url": "http://dash.edgesuite.net/akamai/test/caption_test/ElephantsDream/elephants_dream_480p_heaac5_1.mpd",
             "browsers": "cdsbi"
