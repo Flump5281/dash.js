@@ -51,7 +51,7 @@ MediaPlayer.dependencies.FragmentLoader = function () {
                 req.open("GET", request.url + "?_=" + Date.now().toString(), true);
                 req.responseType = "arraybuffer";
 
-/*                req.setRequestHeader("Cache-Control", "no-cache");
+/*              req.setRequestHeader("Cache-Control", "no-cache");
                 req.setRequestHeader("Pragma", "no-cache");
                 req.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 2000 00:00:00 GMT");
 */
@@ -195,6 +195,7 @@ MediaPlayer.dependencies.FragmentLoader = function () {
         metricsModel: undefined,
         errHandler: undefined,
         debug: undefined,
+        tokenAuthentication:undefined,
 
         load: function (req) {
 
